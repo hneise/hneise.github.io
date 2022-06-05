@@ -1,44 +1,54 @@
 body {
-    font-family: "Special Elite", cursive;
-    background-color: #252a34;
-    color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
     height: 100%;
     margin: 0;
+    background-color: #FFD5CD;
+}
+
+.btn-primary {
+    background-color: #EFBBCF;
+    color: black;
 }
 
 .jumbotron {
-    background-color: #252a34;
+    background-color: #FFD5CD;
 }
 
 .navbar {
-    background-color: #ff2e63;
+    background-color: #8675A9;
 }
 
 section {
     height: 100vh;
-    padding-top: 70px;
+    padding: 70px 10px 10px 10px;
 }
 
 @media all and (max-width: 750px) {
     #profile-img {
         height: 200px;
         width: 200px;
-        border-radius: 30%;
+        border-radius: 100%;
     }
     #profile-title {
         margin-top: 40px;
         margin-bottom: 40px;
     }
+    .btn-home {
+        margin-top: 20px;
+    }
 }
 
 @media all and (min-width: 750px) {
     #profile-img {
-        height: 300px;
-        width: 300px;
-        border-radius: 30%;
+        height: 250px;
+        width: 250px;
+        border-radius: 100%;
     }
     #profile-title {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .btn-home {
+        margin: 10px 10px 10px 10px;
     }
 }
